@@ -8,7 +8,11 @@ install:
 
 script:
   - nbfancy render
+  - nbfancy render output_dir=fancyws worksheet
   - nbfancy html
+  - nbfancy html output_dir=html/worksheet fancyws
+  - cp html/worksheet/01_latex.html html/index.html
+  - cp html/worksheet/02_placeholder_solutions.html html/01_latex-soln.html
 
 deploy:
   provider: pages
@@ -20,4 +24,3 @@ deploy:
   on:
     branch: master
     python: 3.7
-
