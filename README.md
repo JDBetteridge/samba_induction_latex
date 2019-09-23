@@ -5,3 +5,4 @@ This material was gathered and is maintained by:
  - [Jack Betteridge](http://people.bath.ac.uk/jdb55)
  - [William Graham](http://people.bath.ac.uk/wg270)
  - Lizhi Zhang
+ - [Hayley Wragg](https://people.bath.ac.uk/hw454/)
