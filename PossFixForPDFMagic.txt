@@ -1,0 +1,4 @@
+sudo nano /etc/ImageMagic-?/policy.xml
+
+then replace all these coders at the end with
+<policy domain="coder" rights="read | write" pattern="{PS,PS2,PS3,EPS,PDF,XPS}" />
